@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Elite Barbershop</title>
+<link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Elite Barbershop</h1>
+
+    <div class="menu-toggle">&#9776;</div>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+</header>
+
+    <section class="hero">
+       <h2>Look Sharp. Feel Confident.</h2>
+<p>
+    Premium haircuts, expert grooming, and modern styles crafted to match your personality.
+</p>
+<a href="https://wa.me/2348012345678" class="booking-btn" target="_blank">
+    Book on WhatsApp
+</a>
+<a href="tel:+2348012345678" class="call-btn">
+    Call to Book
+</a>
+    </section>
+    <section id="about" class="about">
+    <h2>About Us</h2>
+
+    <p>
+        At Elite Barbershop, we provide professional haircuts, beard grooming,
+        and premium styling services in a clean and welcoming environment.
+        Our goal is to help every client look sharp and feel confident.
+    </p>
+</section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+
+        <div class="service">
+            <h3>Haircut</h3>
+            <p>Clean, stylish cuts for every occasion.</p>
+            <h4>$30</h4>
+        </div>
+
+        <div class="service">
+            <h3>Beard Trim</h3>
+            <p>Professional beard shaping and grooming.</p>
+<h4>$20</h4>
+        </div>
+        
+        <div class="service">
+            <h3>Home Service</h3>
+            <p>Distance is not a barrier-just give us your location & we'll be there.</p>
+<h4>From $50</h4>
+        </div>
+    </section>
+<section id="hours" class="hours">
+    <h2>Working Hours</h2>
+
+    <div class="hours-card">
+        <p><strong>Monday – Sunday</strong></p>
+        <p>Open 24 Hours</p>
+    </div>
+</section>
+<section id="gallery" class="gallery">
+    <h2>Our Gallery</h2>
+
+    <div class="gallery-grid">
+        <img src="images/cut1.jpeg" alt="Classic haircut">
+        <img src="images/cut2.jpeg" alt="Fade haircut">
+        <img src="images/cut3.jpeg" alt="Beard grooming">
+        <img src="images/cut4.jpg" alt="Men's hairstyle">
+        <img src="images/shopinterior.jpeg" alt="Barbershop interior">
+        <img src="images/femalecut.jpeg" alt="Ladies' hairstyle">
+    </div>
+</section>
+
+<section id="why-us" class="why-us">
+    <h2>Why Choose Elite Barbershop?</h2>
+    <div class="feature">
+        <h3>✂️ Professional Barbers</h3>
+        <p>Experienced barbers delivering quality cuts and grooming.</p>
+    </div>
+
+    <div class="feature">
+        <h3>⭐ Premium Service</h3>
+        <p>We focus on comfort, style, and customer satisfaction.</p>
+    </div>
+
+    <div class="feature">
+        <h3>🕒 Easy Booking</h3>
+        <p>Schedule your appointment at your convenience.</p>
+    </div>
+        <div class="feature">
+        <h3>💵 Best Prices</h3>
+        <p>We offer the best prices while delivering the best service.</p>
+    </div>
+</section>
+
+    </div>
+    <section class="location">
+    <h2>Find Us</h2>
+    <p>Visit Elite Barbershop.</p>
+
+    <iframe
+        src="https://www.google.com/maps?q=Lagos,Nigeria&output=embed"
+        width="100%"
+        height="400"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</section>
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <p>Ready for a fresh look? Book your appointment today.</p>
+
+    <p>📞 <a href="tel:+2348000000000">0800 000 0000</a></p>
+    <p>✉️ <a href="mailto:elitebarbershop@email.com">elitebarbershop@email.com</a></p>
+</section>
+</footer>
+
+    <script src="script.js"></script>
+<script>
+const menuToggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector("nav");
+
+menuToggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
+</script>
+<footer>
+    <p>&copy; 2026 Elite Barbershop. All Rights Reserved.</p>
+  <div class="socials">
+    <a href="https://facebook.com" target="_blank">
+        <i class="fab fa-facebook"></i>
+    </a>
+
+    <a href="https://instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://wa.me/2348012345678" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+    <p>Designed with ❤️ for a modern grooming experience.</p>
+</footer>
+</body>
+</html>
